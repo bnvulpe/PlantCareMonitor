@@ -1,13 +1,7 @@
 # PlantCareMonitor
 
 Monitoring and Assistance System for Indoor Plants
-
-## Table of Contents
-
-- [Proposed Use Case](#usecase)
-- [Development Achieved](#development)
-- [Environment Setup and Usage](#setup)
-- [License](#license)
+--
 
 ## Proposed Use Case
 
