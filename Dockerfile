@@ -12,7 +12,7 @@ RUN apt-get update && apt-get install -y \
 RUN /bin/bash -c "source /opt/ros/humble/setup.bash"
 RUN mkdir -p /ros_ws/src
 
-# Copia el código fuente a la imagen
+# Copy the source code to the image
 COPY . /ros_ws/src/plant_monitor
 
 # on terminal 
