@@ -1,0 +1,38 @@
+sensor_manager:
+  ros__parameters:
+    rate: 10.0
+decision_maker:
+  # the thresholds can vary depending on the specific requirements of different plant species
+  # example for tropical_fern
+  ros__parameters:
+    expected_temp: 22
+    expected_light: 500
+    expected_ph: 6.0
+    expected_humidity: 50
+    threshold_temp: 2
+    threshold_light: 100
+    threshold_ph: 0.3
+    threshold_humidity: 15
+
+  # example for succulent
+  #ros__parameters:
+  #  expected_temp: 22
+  #  expected_light: 500
+  #   expected_ph: 6.0
+  #   expected_humidity: 50
+  #   threshold_temp: 4
+  #   threshold_light: 50
+  #   threshold_ph: 0.5
+  #   threshold_humidity: 10
+
+  # -----------
+  # example for orchid
+  #ros__parameters:
+  #  expected_temp: 22
+  #  expected_light: 500
+  #  expected_ph: 6.0
+  #  expected_humidity: 50
+  #  threshold_temp: 3
+  #  threshold_light: 150
+  #  threshold_ph: 0.4
+  #  threshold_humidity: 20

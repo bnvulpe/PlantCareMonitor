@@ -1,0 +1,8 @@
+[console_scripts]
+decision_maker = plant_monitor.decision_maker:main
+heat_act = plant_monitor.heat_act:main
+light_act = plant_monitor.light_act:main
+ph_act = plant_monitor.ph_act:main
+sensor_manager = plant_monitor.sensor_manager:main
+water_act = plant_monitor.water_act:main
+
