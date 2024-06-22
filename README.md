@@ -1,5 +1,3 @@
-# PlantCareMonitor
-
 Monitoring and Assistance System for Indoor Plants
 --
 
